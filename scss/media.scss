@@ -1,0 +1,328 @@
+@import "variables";
+// min 1370px
+@media (min-width: 1370px) {
+  .header__content,
+  .hotdeal,
+  .social,
+  .footer {
+    max-width: 1370px;
+  }
+}
+// 1338
+@media (max-width: 1338px) {
+  .container {
+    padding: 0 50px;
+  }
+  .trend__items {
+    justify-content: space-evenly;
+  }
+}
+// max 1300
+@media (max-width: 1300px) {
+  .featured__items {
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    justify-content: space-evenly;
+    & .featured__item.new-string,
+    .featured__item.new-string ~ .featured__item {
+      order: 1;
+      // break-after: always;
+    }
+    &:after {
+      content: "";
+      width: 100%;
+      order: 0;
+    }
+  }
+  .featured__item {
+    padding: 10px 10px;
+  }
+  .trend__products .trend__items {
+    justify-content: space-evenly;
+  }
+}
+// 1243
+@media (max-width: 1243px) {
+  .stock .container {
+    display: block;
+  }
+  .stock .stock__left {
+    max-width: none;
+  }
+  .stock .stock__left .exclusive__inner {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .stock .trend__item {
+    margin: 10px 50px;
+  }
+  .stock .trend__items {
+    justify-content: space-evenly;
+  }
+}
+// max 978
+@media (max-width: 978px) {
+  .footer .footer_up {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    display: block;
+}
+.footer .contact, .footer .contact__title, .footer .terms__title, .footer .stay__title {
+  max-width: none;
+  text-align: center;
+}
+.footer .adress, .footer .email, .footer .terms__sales, .footer .terms__custom, .footer .terms__delivery, .footer .terms__accounts, .footer .terms__careers, .footer .terms__returns, .footer .stay__text {
+text-align: center;
+  min-width: none;
+}
+.footer .terms__inner {
+  justify-content: space-evenly;
+}
+.footer .footer_down {
+  display: block;
+  text-align: center;
+}
+.footer .terms__left a, .footer .terms__right a {
+
+  min-width: 0;
+
+}
+.footer .adress, .footer .email, .footer .terms__sales, .footer .terms__custom, .footer .terms__delivery, .footer .terms__accounts, .footer .terms__careers, .footer .terms__returns, .footer .stay__text {
+   max-width: none; 
+}
+}
+// max 820
+@media (max-width: 820px) {
+  .menu {
+    position: absolute;
+    display: none;
+    right: 30px;
+    text-align: right;
+    z-index: 1;
+    & li {
+      display: block;
+      padding: 8px 0;
+      //         & a:hover {
+
+      //   }
+    }
+  }
+  .icon__menu {
+    display: block;
+  }
+  .icon__menu_button {
+    display: block;
+    text-align: right;
+    padding-right: 10px;
+  }
+  .slick-dots li:before {
+    width: 20px;
+    height: 20px;
+  }
+  .slick-dots li:hover:before {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+// max 800
+@media (max-width: 800px) {
+  .exclusive {
+    display: block;
+  }
+  .hotdeal {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  .stock .stock__left .exclusive__inner {
+    padding-left: 10px;
+  }
+  .stock .stock__right {
+    padding-left: 0;
+  }
+  .stock {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+// max 771
+@media (max-width: 771px) {
+  .social .social__title_up {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 15px;
+  }
+  .social .social__title {
+    font-size: 35px;
+  }
+  .social .social__text {
+    font-size: 12px;
+    padding-bottom: 15px;
+  }
+  .social .social__btn {
+    padding-bottom: 50px;
+}
+}
+// max 589
+@media (max-width: 589px) {
+  .featured__menu {
+    padding-top: 55px;
+  }
+  .featured__menu_choice li .featured__menu_btn {
+    font-size: 22px;
+    padding-right: 30px;
+  }
+  .featured__explore_btn {
+    line-height: 30px;
+    font-size: 14px;
+  }
+  .trend__products .trend__item {
+    max-height: 150px;
+    max-width: 150px;
+  }
+  .trend__products .trend__item_img,
+  .trend__products .trend__item_btn {
+    max-height: 150px;
+  }
+  .trend__menu_title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+// max 577
+@media (max-width: 577px) {
+  .header__slider {
+    min-height: 250px;
+  }
+  .trend__products .trend__menu {
+    padding-top: 50px;
+  }
+  .hotdeal {
+    padding-top: 150px;
+    padding-bottom: 193px;
+  }
+}
+// max 541
+@media (max-width: 541px) {
+  .slider__title {
+    font-size: 50px;
+  }
+}
+// max 500
+@media (max-width: 500px) {
+  .container {
+    padding: 0 15px;
+  }
+  .header__content {
+    padding-top: 30px;
+  }
+  .menu {
+    right: -5px;
+  }
+  .header__logo_menu {
+    margin-bottom: 220px;
+  }
+  .header__content {
+    padding-bottom: 100px;
+  }
+  .slick-dots {
+    bottom: -95px;
+  }
+  .slider__btn {
+    text-align: center;
+  }
+  .exclusive {
+    & .exclusive__title_up {
+      font-size: 12px;
+    }
+    & .exclusive__title {
+      font-size: 29px;
+    }
+    & .exclusive__text {
+      font-size: 10px;
+    }
+    & .exclusive__inner {
+      padding: 110px 0 150px 20px;
+    }
+    & .exclusive__btn {
+      text-align: center;
+    }
+    & .order__btn {
+      font-size: 14px;
+      padding: 5px 25px;
+      &:after {
+        top: 7px;
+      }
+    }
+  }
+  .hotdeal {
+    padding-top: 110px;
+    padding-bottom: 110px;
+  }
+}
+
+// max 376
+@media (max-width: 376px) {
+  .header__content {
+    padding-bottom: 40px;
+    padding-top: 30px;
+  }
+  .slick-dots {
+    bottom: -35px;
+  }
+  .slider__trend {
+    font-size: 13px;
+  }
+  .slider__title {
+    line-height: 55px;
+    font-size: 40px;
+  }
+  .slider__text {
+    font-size: 10px;
+  }
+  .order__btn {
+    font-size: 14px;
+    padding: 6px 24px;
+    &:after {
+      top: 7px;
+      right: 5px;
+    }
+  }
+  .slick-dots li:before {
+    width: 10px;
+    height: 10px;
+  }
+  .slick-dots li:hover:before {
+    width: 20px;
+    height: 20px;
+  }
+  .featured__menu_choice li .featured__menu_btn {
+    font-size: 16px;
+    padding-right: 20px;
+  }
+  .featured__explore_btn {
+    line-height: 23px;
+    font-size: 11px;
+  }
+  .trend__menu_title {
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .hotdeal {
+    padding-bottom: 50px;
+  }
+  .social .social__title {
+    font-size: 30px;
+}
+.social .social__btn {
+  padding-bottom: 20px;
+  padding-right: 5px;
+}
+}
+// min 820px
+@media (min-width: 820px) {
+  .header__menu ul {
+    display: block !important;
+  }
+}
