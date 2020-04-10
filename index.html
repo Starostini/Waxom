@@ -5,6 +5,10 @@
    <meta charset="utf-8">
    <title>Product</title>
    <link href="css/normalize.css" rel="stylesheet">
+   <link rel="stylesheet" href="css/font.css">
+   <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+   <link rel="stylesheet" href="css/slick.css">
+   <link rel="stylesheet" href="css/jquery.formstyler.css">
    <link href="css/main.css" rel="stylesheet">
    <link href="css/media.css" rel="stylesheet">
 </head>
@@ -12,86 +16,120 @@
 <body>
    <header class="header_page">
       <div class="container">
-      <section class="first_page">
-         <a href="#" class="logo_page">
-            <svg class="logo_svg" xmlns="http://www.w3.org/2000/svg" width="64" height="56" viewBox="0 0 64 56">
-               <g>
+         <section class="first_page">
+            <a href="#" class="logo_page">
+               <svg class="logo_svg" xmlns="http://www.w3.org/2000/svg" width="64" height="56" viewBox="0 0 64 56">
                   <g>
-                     <path
-                        d="M31.854 19.905L26.6 10.713h10.508zm-1.314.766H20.032l5.254-9.191zm2.628 0l5.254-9.191 5.254 9.191zm10.508 1.53l-5.254 9.189-5.254-9.188zm-13.136 0l-5.254 9.189-5.254-9.188zm-11.822.766l5.253 9.187H13.465zm21.02 9.187l5.252-9.187 5.253 9.187zm-2.63-22.97H26.6l5.254-9.19zm2.63 24.502h10.505l-5.253 9.188zm-26.273 0H23.97l-5.253 9.188zm-1.314.765l5.253 9.19H6.897zm34.152 9.19l5.254-9.19 5.254 9.19zm10.508 1.53l-5.254 9.188-5.254-9.187zm-13.135 0l-5.254 9.188-5.254-9.187zm-36.779 0h10.507L12.15 54.36zm-1.315.768l5.254 9.189H.33zm26.272 0l5.254 9.189H26.6zm13.136 0l5.253 9.189H39.738zm18.387 9.189H52.873l5.252-9.189z" />
-                     <path
-                        d="M31.854 19.905L26.6 10.713h10.508zm-1.314.766H20.032l5.254-9.191zm2.628 0l5.254-9.191 5.254 9.191zm10.508 1.53l-5.254 9.189-5.254-9.188zm-13.136 0l-5.254 9.189-5.254-9.188zm-11.822.766l5.253 9.187H13.465zm21.02 9.187l5.252-9.187 5.253 9.187zm-2.63-22.97H26.6l5.254-9.19zm2.63 24.502h10.505l-5.253 9.188zm-26.273 0H23.97l-5.253 9.188zm-1.314.765l5.253 9.19H6.897zm34.152 9.19l5.254-9.19 5.254 9.19zm10.508 1.53l-5.254 9.188-5.254-9.187zm-13.135 0l-5.254 9.188-5.254-9.187zm-36.779 0h10.507L12.15 54.36zm-1.315.768l5.254 9.189H.33zm26.272 0l5.254 9.189H26.6zm13.136 0l5.253 9.189H39.738zm18.387 9.189H52.873l5.252-9.189z" />
+                     <g>
+                        <path
+                           d="M31.854 19.905L26.6 10.713h10.508zm-1.314.766H20.032l5.254-9.191zm2.628 0l5.254-9.191 5.254 9.191zm10.508 1.53l-5.254 9.189-5.254-9.188zm-13.136 0l-5.254 9.189-5.254-9.188zm-11.822.766l5.253 9.187H13.465zm21.02 9.187l5.252-9.187 5.253 9.187zm-2.63-22.97H26.6l5.254-9.19zm2.63 24.502h10.505l-5.253 9.188zm-26.273 0H23.97l-5.253 9.188zm-1.314.765l5.253 9.19H6.897zm34.152 9.19l5.254-9.19 5.254 9.19zm10.508 1.53l-5.254 9.188-5.254-9.187zm-13.135 0l-5.254 9.188-5.254-9.187zm-36.779 0h10.507L12.15 54.36zm-1.315.768l5.254 9.189H.33zm26.272 0l5.254 9.189H26.6zm13.136 0l5.253 9.189H39.738zm18.387 9.189H52.873l5.252-9.189z" />
+                        <path
+                           d="M31.854 19.905L26.6 10.713h10.508zm-1.314.766H20.032l5.254-9.191zm2.628 0l5.254-9.191 5.254 9.191zm10.508 1.53l-5.254 9.189-5.254-9.188zm-13.136 0l-5.254 9.189-5.254-9.188zm-11.822.766l5.253 9.187H13.465zm21.02 9.187l5.252-9.187 5.253 9.187zm-2.63-22.97H26.6l5.254-9.19zm2.63 24.502h10.505l-5.253 9.188zm-26.273 0H23.97l-5.253 9.188zm-1.314.765l5.253 9.19H6.897zm34.152 9.19l5.254-9.19 5.254 9.19zm10.508 1.53l-5.254 9.188-5.254-9.187zm-13.135 0l-5.254 9.188-5.254-9.187zm-36.779 0h10.507L12.15 54.36zm-1.315.768l5.254 9.189H.33zm26.272 0l5.254 9.189H26.6zm13.136 0l5.253 9.189H39.738zm18.387 9.189H52.873l5.252-9.189z" />
+                     </g>
                   </g>
-               </g>
-            </svg>
-            <span class="logo_txt">Waxom</span>
-         </a>
-         <nav class="navigation">
-            <ul class="menu_nav">
-               <li class="menu_nav_li"><a href="#" class="nav_a">Home</a></li>
-               <li class="menu_nav_li"><a href="#" class="nav_a">About Us</a></li>
-               <li class="menu_nav_li"><a href="#" class="nav_a">Portfolio</a></li>
-               <li class="menu_nav_li"><a href="#" class="nav_a">Features</a></li>
-               <li class="menu_nav_li"><a href="#" class="nav_a">Blog</a></li>
-               <li class="menu_nav_li"><a href="#" class="nav_a">Pricing</a></li>
-               <li class="menu_nav_li"><a href="#" class="nav_a">Shortcodes</a></li>
-               <li class="menu_nav_li"><a href="#" class="nav_a">Contact</a></li>
-               <li class="menu_nav_li">
-                  <a href="#" class="nav_a">
-                     <svg class="image_nav" xmlns="http://www.w3.org/2000/svg" width="18" height="24"
-                        viewBox="0 0 18 24">
-                        <g>
+               </svg>
+               <span class="logo_txt">Waxom</span>
+            </a>
+            <nav class="navigation">
+               <ul class="menu_nav">
+                  <li class="menu_nav_li"><a href="#" class="nav_a">Home</a></li>
+                  <li class="menu_nav_li"><a href="#" class="nav_a">About Us</a></li>
+                  <li class="menu_nav_li"><a href="#" class="nav_a">Portfolio</a></li>
+                  <li class="menu_nav_li"><a href="#" class="nav_a">Features</a></li>
+                  <li class="menu_nav_li"><a href="#" class="nav_a">Blog</a></li>
+                  <li class="menu_nav_li"><a href="#" class="nav_a">Pricing</a></li>
+                  <li class="menu_nav_li"><a href="#" class="nav_a">Shortcodes</a></li>
+                  <li class="menu_nav_li"><a href="#" class="nav_a">Contact</a></li>
+                  <li class="menu_nav_li">
+                     <a href="#" class="nav_a">
+                        <svg class="image_nav" xmlns="http://www.w3.org/2000/svg" width="18" height="24"
+                           viewBox="0 0 18 24">
                            <g>
-                              <path
-                                 d="M17.994 5.997v14.998a3 3 0 0 1-2.999 3H3.002a3 3 0 0 1-2.999-3V5.997A2.999 2.999 0 0 1 3.002 3H4.5c0-1.657 2.013-3 4.498-3 2.484 0 4.497 1.343 4.497 3h1.5a2.999 2.999 0 0 1 2.998 2.998zM6 3h5.997c0-1.037-1.342-1.5-2.998-1.5-1.656 0-2.999.463-2.999 1.5zm10.495 16.496H1.502v1.5c0 .828.672 1.5 1.5 1.5h11.993a1.5 1.5 0 0 0 1.5-1.5zm0-13.498a1.5 1.5 0 0 0-1.5-1.5h-1.499v4.5h-1.499v-4.5H6v4.5H4.501v-4.5h-1.5a1.5 1.5 0 0 0-1.499 1.5v11.998h14.993z" />
-                              <path
-                                 d="M17.994 5.997v14.998a3 3 0 0 1-2.999 3H3.002a3 3 0 0 1-2.999-3V5.997A2.999 2.999 0 0 1 3.002 3H4.5c0-1.657 2.013-3 4.498-3 2.484 0 4.497 1.343 4.497 3h1.5a2.999 2.999 0 0 1 2.998 2.998zM6 3h5.997c0-1.037-1.342-1.5-2.998-1.5-1.656 0-2.999.463-2.999 1.5zm10.495 16.496H1.502v1.5c0 .828.672 1.5 1.5 1.5h11.993a1.5 1.5 0 0 0 1.5-1.5zm0-13.498a1.5 1.5 0 0 0-1.5-1.5h-1.499v4.5h-1.499v-4.5H6v4.5H4.501v-4.5h-1.5a1.5 1.5 0 0 0-1.499 1.5v11.998h14.993z" />
+                              <g>
+                                 <path
+                                    d="M17.994 5.997v14.998a3 3 0 0 1-2.999 3H3.002a3 3 0 0 1-2.999-3V5.997A2.999 2.999 0 0 1 3.002 3H4.5c0-1.657 2.013-3 4.498-3 2.484 0 4.497 1.343 4.497 3h1.5a2.999 2.999 0 0 1 2.998 2.998zM6 3h5.997c0-1.037-1.342-1.5-2.998-1.5-1.656 0-2.999.463-2.999 1.5zm10.495 16.496H1.502v1.5c0 .828.672 1.5 1.5 1.5h11.993a1.5 1.5 0 0 0 1.5-1.5zm0-13.498a1.5 1.5 0 0 0-1.5-1.5h-1.499v4.5h-1.499v-4.5H6v4.5H4.501v-4.5h-1.5a1.5 1.5 0 0 0-1.499 1.5v11.998h14.993z" />
+                                 <path
+                                    d="M17.994 5.997v14.998a3 3 0 0 1-2.999 3H3.002a3 3 0 0 1-2.999-3V5.997A2.999 2.999 0 0 1 3.002 3H4.5c0-1.657 2.013-3 4.498-3 2.484 0 4.497 1.343 4.497 3h1.5a2.999 2.999 0 0 1 2.998 2.998zM6 3h5.997c0-1.037-1.342-1.5-2.998-1.5-1.656 0-2.999.463-2.999 1.5zm10.495 16.496H1.502v1.5c0 .828.672 1.5 1.5 1.5h11.993a1.5 1.5 0 0 0 1.5-1.5zm0-13.498a1.5 1.5 0 0 0-1.5-1.5h-1.499v4.5h-1.499v-4.5H6v4.5H4.501v-4.5h-1.5a1.5 1.5 0 0 0-1.499 1.5v11.998h14.993z" />
+                              </g>
                            </g>
-                        </g>
-                     </svg>
-                  </a>
-               </li>
-               <li class="menu_nav_li">
-                  <form class="nav_a">
-                     <input type="search" value="">
-                  </form>
-               </li>
-            </ul>
-         </nav>
-      </section>
-      <section class="first_page_2">
-         <!-- <a href="#" class="button_page_2"></a> -->
-         <div class="info_first_page">
-            <span class="info_first_page_span">Unique and Modern Design</span> <span
-               class="info_first_page_span2">Portfolio PSD Template</span>
-            <p class="info_first_page_span3">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
-               doming id&nbsp;quod mazim placerat facer possim assum.</p>
-            <a href="#" class="button_info_page"><span class="button_first_page_span">Get Started</span></a>
-         </div>
-         <div class="info_first_page">
-            <span class="info_first_page_span">Unique and Modern Design</span> <span
-               class="info_first_page_span2">Portfolio PSD Template</span>
-            <p class="info_first_page_span3">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
-               doming id&nbsp;quod mazim placerat facer possim assum.</p>
-            <a href="#" class="button_info_page"><span class="button_first_page_span">Get Started</span></a>
-         </div>
-         <div class="info_first_page">
-            <span class="info_first_page_span">Unique and Modern Design</span> <span
-               class="info_first_page_span2">Portfolio PSD Template</span>
-            <p class="info_first_page_span3">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
-               doming id&nbsp;quod mazim placerat facer possim assum.</p>
-            <a href="#" class="button_info_page"><span class="button_first_page_span">Get Started</span></a>
-         </div>
-         <!-- <a href="#" class="button_page_3"></a> -->
-         <!-- <a href="#" class="cross_bar"></a>
-         <a href="#" class="cross_bar"></a>
-         <a href="#" class="cross_bar"></a>
-         <a href="#" class="cross_bar"></a>
-         <a href="#" class="cross_bar"></a> -->
-      </section>
-   </div>
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="menu_nav_li">
+                     <form class="nav_a">
+                        <input type="search" value="">
+                     </form>
+                  </li>
+               </ul>
+            </nav>
+         </section>
+         <section class="first_page_2">
+            <div class="slider__inner">
+
+               <div class="info_first_page">
+                  <div class="info_title">Unique and Modern Design</div>
+                  <div class="info_title_big">Portfolio PSD Template</div>
+                  <div class="info_text">Nam liber tempor cum soluta nobis eleifend option congue nihil
+                     imperdiet
+                     doming id&nbsp;quod mazim placerat facer possim assum.</div>
+                  <div class="button_info">
+                     <a href="javascript:;" class="button_start" data-fancybox="" data-src="#modal">Get
+                        Started</a></div>
+               </div>
+               <div class="info_first_page">
+                  <div class="info_title">Unique and Modern Design</div>
+                  <div class="info_title_big">Portfolio PSD Template</div>
+                  <div class="info_text">Nam liber tempor cum soluta nobis eleifend option congue nihil
+                     imperdiet
+                     doming id&nbsp;quod mazim placerat facer possim assum.</div>
+                  <div class="button_info">
+                     <a href="javascript:;" class="button_start" data-fancybox="" data-src="#modal">Get
+                        Started</a></div>
+               </div>
+               <div class="info_first_page">
+                  <div class="info_title">Unique and Modern Design</div>
+                  <div class="info_title_big">Portfolio PSD Template</div>
+                  <div class="info_text">Nam liber tempor cum soluta nobis eleifend option congue nihil
+                     imperdiet
+                     doming id&nbsp;quod mazim placerat facer possim assum.</div>
+                  <div class="button_info">
+                     <a href="javascript:;" class="button_start" data-fancybox="" data-src="#modal">Get
+                        Started</a></div>
+               </div>
+               <div class="info_first_page">
+                  <div class="info_title">Unique and Modern Design</div>
+                  <div class="info_title_big">Portfolio PSD Template</div>
+                  <div class="info_text">Nam liber tempor cum soluta nobis eleifend option congue nihil
+                     imperdiet
+                     doming id&nbsp;quod mazim placerat facer possim assum.</div>
+                  <div class="button_info">
+                     <a href="javascript:;" class="button_start" data-fancybox="" data-src="#modal">Get
+                        Started</a></div>
+               </div>
+               <div class="info_first_page">
+                  <div class="info_title">Unique and Modern Design</div>
+                  <div class="info_title_big">Portfolio PSD Template</div>
+                  <div class="info_text">Nam liber tempor cum soluta nobis eleifend option congue nihil
+                     imperdiet
+                     doming id&nbsp;quod mazim placerat facer possim assum.</div>
+                  <div class="button_info">
+                     <a href="javascript:;" class="button_start" data-fancybox="" data-src="#modal">Get
+                        Started</a></div>
+               </div>
+            </div>
+            <div class="crossbar">
+               <ul class="slick__dots">
+                  <li class="crossbar__li"><a href="#" class="cross_bar"></a></li>
+                  <li class="crossbar__li"><a href="#" class="cross_bar"></a></li>
+                  <li class="crossbar__li"><a href="#" class="cross_bar"></a></li>
+                  <li class="crossbar__li"><a href="#" class="cross_bar"></a></li>
+                  <li class="crossbar__li"><a href="#" class="cross_bar"></a></li>
+               </ul>
+            </div>
+         </section>
+      </div>
    </header>
-<!-- <main>
+   <main>
          <section class="second_part">
             <a href="#" class="web_info_page">
                <svg class="image_color" xmlns="http://www.w3.org/2000/svg" width="49" height="49">
@@ -142,7 +180,7 @@
                <p class="text_web_info">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id&nbsp;quod mazim.</p>
             </a>
          </section>
-         <section class="second_page_web_info"> <span class="second_h1_page">Waxom is&nbsp;Realization of&nbsp;your Ideas.</span> <span class="second_h2_page">Investigationes demonstraverunt lectores legere me&nbsp;lius quod ii&nbsp;legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</span> <img src="../img/3-layers.png" alt="" class="img_second_page"> </section>
+        <!-- <section class="second_page_web_info"> <span class="second_h1_page">Waxom is&nbsp;Realization of&nbsp;your Ideas.</span> <span class="second_h2_page">Investigationes demonstraverunt lectores legere me&nbsp;lius quod ii&nbsp;legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</span> <img src="../img/3-layers.png" alt="" class="img_second_page"> </section>
          <aside class="purshase_web"> <span class="info_about_purshase">
             <span class="first_word">Waxom</span> Multipurpose WordPress Theme</span> <span class="info2_about_purshase">Don&rsquo;t Forget to&nbsp;Rate the Template. Thanks so&nbsp;much!</span> <a href="#" class="button_submit_purshase"><span class="button_submit_span">Purchase Now</span></a> 
          </aside>
@@ -437,7 +475,7 @@
                <a href="#" class="read_more_part">read more</a> 
             </div>
          </section>
-      </main>
+      --> </main><!--
       <footer>
          <section class="footer_part_one">
             <a href="#"><img src="img/logo-01.png" alt="photo1" class="photo_1"></a>
@@ -492,6 +530,13 @@
             <p class="text_designed">Designed by&nbsp;<a href="#" class="theme">ThemeFire</a>Only on&nbsp;<a href="#" class="envato">Envato Market</a></p>
          </section>
       </footer> -->
+   <div id="modal">
+      <form>
+         <input type="text" placeholder="Ваше имя">
+         <input type="text" placeholder="Ваш телефон">
+         <input type="submit" value="Отправить">
+      </form>
+   </div>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    <script src="js/jquery.fancybox.min.js"></script>
    <script src="js/slick.js"></script>
