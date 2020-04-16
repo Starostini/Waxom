@@ -3,7 +3,7 @@
 
 <head>
    <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width; initial-scale=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>Product</title>
    <link href="css/normalize.css" rel="stylesheet">
    <link rel="stylesheet" href="css/font.css">
@@ -41,7 +41,15 @@
                </div>
                <div class="first__inner_2">
                   <nav class="navigation">
-                     <ul class="menu_nav">
+                     <div class="little__menu"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                        class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                           d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                        </path>
+                     </svg>
+                  </div>
+                     <ul class="menu_nav" id="logos">
                         <li class="menu_nav_li"><a href="#" class="nav_a">Home</a></li>
                         <li class="menu_nav_li"><a href="#" class="nav_a">About Us</a></li>
                         <li class="menu_nav_li"><a href="#" class="nav_a">Portfolio</a></li>
@@ -485,32 +493,33 @@
                      <source src="video/02.webm" type='video/webm; codecs="vp8, vorbis"'>
                      Тег video не&nbsp;поддерживается вашим браузером. <a href="video/02.mp4">Скачайте видео</a>
                   </video>
-               </div>
-               <div class="play_div play__div" id="controls">
-                  <div class="play__btn">
-                     <a id="playBtn" class="play_button">
-                        <svg class="image_button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70" width="70"
-                           height="70">
-                           <g>
+                  <div class="play_div play__div" id="controls">
+                     <div class="play__btn">
+                        <a id="playBtn" class="play_button">
+                           <svg class="image_button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70" width="70"
+                              height="70">
                               <g>
-                                 <path
-                                    d="M29.934 51.82a2.06 2.06 0 0 1-2.06-2.06V20.235a2.06 2.06 0 0 1 3.379-1.582l17.714 14.762a2.059 2.059 0 0 1 0 3.165L31.253 51.343a2.06 2.06 0 0 1-1.32.477zm2.06-27.187v20.73l12.437-10.366zm2.943 45.365a34.807 34.807 0 0 1-17.106-4.47 2.06 2.06 0 1 1 2.02-3.59c12.019 6.765 27.231 4.673 36.994-5.093 12.047-12.047 12.047-31.648 0-43.695-12.047-12.049-31.649-12.048-43.695 0-12.046 12.047-12.046 31.648 0 43.695a2.06 2.06 0 0 1-2.913 2.914c-13.653-13.654-13.653-35.869 0-49.523 13.654-13.652 35.867-13.653 49.522 0 13.653 13.654 13.653 35.869 0 49.523C53.033 66.484 44.026 70 34.937 70z" />
-                                 <path
-                                    d="M29.934 51.82a2.06 2.06 0 0 1-2.06-2.06V20.235a2.06 2.06 0 0 1 3.379-1.582l17.714 14.762a2.059 2.059 0 0 1 0 3.165L31.253 51.343a2.06 2.06 0 0 1-1.32.477zm2.06-27.187v20.73l12.437-10.366zm2.943 45.365a34.807 34.807 0 0 1-17.106-4.47 2.06 2.06 0 1 1 2.02-3.59c12.019 6.765 27.231 4.673 36.994-5.093 12.047-12.047 12.047-31.648 0-43.695-12.047-12.049-31.649-12.048-43.695 0-12.046 12.047-12.046 31.648 0 43.695a2.06 2.06 0 0 1-2.913 2.914c-13.653-13.654-13.653-35.869 0-49.523 13.654-13.652 35.867-13.653 49.522 0 13.653 13.654 13.653 35.869 0 49.523C53.033 66.484 44.026 70 34.937 70z" />
+                                 <g>
+                                    <path
+                                       d="M29.934 51.82a2.06 2.06 0 0 1-2.06-2.06V20.235a2.06 2.06 0 0 1 3.379-1.582l17.714 14.762a2.059 2.059 0 0 1 0 3.165L31.253 51.343a2.06 2.06 0 0 1-1.32.477zm2.06-27.187v20.73l12.437-10.366zm2.943 45.365a34.807 34.807 0 0 1-17.106-4.47 2.06 2.06 0 1 1 2.02-3.59c12.019 6.765 27.231 4.673 36.994-5.093 12.047-12.047 12.047-31.648 0-43.695-12.047-12.049-31.649-12.048-43.695 0-12.046 12.047-12.046 31.648 0 43.695a2.06 2.06 0 0 1-2.913 2.914c-13.653-13.654-13.653-35.869 0-49.523 13.654-13.652 35.867-13.653 49.522 0 13.653 13.654 13.653 35.869 0 49.523C53.033 66.484 44.026 70 34.937 70z" />
+                                    <path
+                                       d="M29.934 51.82a2.06 2.06 0 0 1-2.06-2.06V20.235a2.06 2.06 0 0 1 3.379-1.582l17.714 14.762a2.059 2.059 0 0 1 0 3.165L31.253 51.343a2.06 2.06 0 0 1-1.32.477zm2.06-27.187v20.73l12.437-10.366zm2.943 45.365a34.807 34.807 0 0 1-17.106-4.47 2.06 2.06 0 1 1 2.02-3.59c12.019 6.765 27.231 4.673 36.994-5.093 12.047-12.047 12.047-31.648 0-43.695-12.047-12.049-31.649-12.048-43.695 0-12.046 12.047-12.046 31.648 0 43.695a2.06 2.06 0 0 1-2.913 2.914c-13.653-13.654-13.653-35.869 0-49.523 13.654-13.652 35.867-13.653 49.522 0 13.653 13.654 13.653 35.869 0 49.523C53.033 66.484 44.026 70 34.937 70z" />
+                                 </g>
                               </g>
-                           </g>
-                        </svg>
-                     </a>
+                           </svg>
+                        </a>
+                     </div>
+                     <div class="play__title" id="play_title">Waxom Video Presentation</div>
+                     <div class="p_video" id="p__video">Investigationes demonstraverunt lectores legere me&nbsp;lius quod
+                        ii&nbsp;legunt
+                        saepius,
+                        qui sequitur mutationem consuetudium.</div>
+                     <time class="time_play" id="timer"></time>
+                     <div id="slider"></div>
+                     <span class="volume"></span>
                   </div>
-                  <div class="play__title" id="play_title">Waxom Video Presentation</div>
-                  <div class="p_video" id="p__video">Investigationes demonstraverunt lectores legere me&nbsp;lius quod
-                     ii&nbsp;legunt
-                     saepius,
-                     qui sequitur mutationem consuetudium.</div>
-                  <time class="time_play" id="timer"></time>
-                  <div id="slider"></div>
-                  <span class="volume"></span>
                </div>
+               
             </div>
          </div>
       </section>
@@ -727,8 +736,8 @@
                         </div>
                      </div>
                   </a>
-
-                  <div class="txt_part_footer">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                  <div class="txt_part_footer">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                     nonummy
                      nibh
                      euismod tincidunt ut&nbsp;laoreet dolore magna aliquam erat volutpat. Ut&nbsp;wisi enim
                      ad&nbsp;minim
@@ -736,35 +745,39 @@
                   <a href="#" class="read_more">read more</a>
                </div>
                <article class="article_part">
-                  <span class="article_post">recent posts</span>
+                  <div class="article_post">recent posts</div>
                   <a href="#" class="link_for_text">
-                     <p class="date_for_text">September&nbsp;08, 2015</p>
-                     <p class="text_in_the_link">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                     <div class="date_for_text">September&nbsp;08, 2015</div>
+                     <div class="text_in_the_link">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
                   </a>
                   <a href="#" class="link_for_text">
-                     <p class="date_for_text">September&nbsp;08, 2015</p>
-                     <p class="text_in_the_link">Diam nonummy nibh euismod tincidunt ut&nbsp;laoreet dolore magna</p>
+                     <div class="date_for_text">September&nbsp;08, 2015</div>
+                     <div class="text_in_the_link">Diam nonummy nibh euismod tincidunt ut&nbsp;laoreet dolore magna
+                     </div>
                   </a>
                   <a href="#" class="link_for_text">
-                     <p class="date_for_text">September&nbsp;08, 2015</p>
-                     <p class="text_in_the_link">Claritas est etiam processus dynamicus, qui sequitur mutationem per
+                     <div class="date_for_text">September&nbsp;08, 2015</div>
+                     <div class="text_in_the_link">Claritas est etiam processus dynamicus, qui sequitur mutationem per
                         seacula
-                        quarta decima</p>
+                        quarta decima</div>
                   </a>
                </article>
                <div class="twitter_part">
-                  <span class="twitter_span">our twitter</span>
-                  <p class="text_twitter"><a href="#" class="link_with_text">@waxom</a> Cum soluta nobis eleifend option
-                     congue nihil imperdiet doming</p>
-                  <p class="date_time_twitter">3&nbsp;mins ago</p>
-                  <p class="text_twitter">Mirum est <a href="#" class="link_with_text">#envato</a> notare quam littera
-                     gothica, quam nunc putamus parum anteposuerit litterarum</p>
-                  <p class="date_time_twitter">5&nbsp;hours ago</p>
-                  <p class="text_twitter">Soluta nobis option <a href="#" class="link_with_text1">bit.ly/1Hniso7</a></p>
-                  <p class="date_time_twitter">20&nbsp;days ago</p>
+                  <div class="twitter_span">our twitter</div>
+                  <div class="text_twitter"><a href="#" class="link_with_text">@waxom</a> Cum soluta nobis eleifend
+                     option
+                     congue nihil imperdiet doming</div>
+                  <div class="date_time_twitter">3&nbsp;mins ago</div>
+                  <div class="text_twitter">Mirum est <a href="#" class="link_with_text">#envato</a> notare quam littera
+                     gothica, quam nunc putamus parum anteposuerit litterarum</div>
+                  <div class="date_time_twitter">5&nbsp;hours ago</div>
+                  <div class="text_twitter">Soluta nobis option <a href="#" class="link_with_text1">bit.ly/1Hniso7</a>
+                  </div>
+                  <div class="date_time_twitter">20&nbsp;days ago</div>
                </div>
-               <div class="part_with_image"> <span class="span_image">dribbble widget</span> <img
-                     src="img/image_last_part.png" alt="image1" class="image_in_the_last_part" width="130" height="98">
+               <div class="part_with_image">
+                  <div class="span_image">dribbble widget</div> <img src="img/image_last_part.png" alt="image1"
+                     class="image_in_the_last_part" width="130" height="98">
                   <img src="img/image_last_part1.png" alt="image1" class="image_in_the_last_part" width="130"
                      height="98">
                   <img src="img/image_last_part2.png" alt="image1" class="image_in_the_last_part" width="130"
@@ -776,11 +789,15 @@
          </div>
       </section>
       <section class="footer_last">
-         <p class="copyright">Copyright &copy;&nbsp;2015 <a href="#" class="waxom_com">Waxom</a> <a href="#"
-               class="privacy">Privacy Policy</a> <a href="#" class="faq">FAQ</a> <a href="#"
-               class="support">Support</a> </p>
-         <p class="text_designed">Designed by&nbsp;<a href="#" class="theme">ThemeFire</a>Only on&nbsp;<a href="#"
-               class="envato">Envato Market</a></p>
+         <div class="container">
+            <div class="last__inner">
+               <div class="copyright">Copyright &copy;&nbsp;2015 <a href="#" class="waxom_com">Waxom</a> <a href="#"
+                     class="privacy">Privacy Policy</a> <a href="#" class="faq">FAQ</a> <a href="#"
+                     class="support">Support</a> </div>
+               <div class="text_designed">Designed by&nbsp;<a href="#" class="theme">ThemeFire</a>Only on&nbsp;<a
+                     href="#" class="envato">Envato Market</a></div>
+            </div>
+         </div>
       </section>
    </footer>
    <div id="modal">
