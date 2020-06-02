@@ -35,7 +35,9 @@
     url(../fonts/montserrat/ttf/Montserrat-ExtraLight.ttf) format("ttf"),
     url(../fonts/montserrat/eot/Montserrat-ExtraLight.eot) format("eot");
 }
-
+@keyframes menuanim {
+  
+}
 * {
   margin: 0 auto;
 }
@@ -1162,3 +1164,4 @@ body {
 #modal input[type="submit"] {
   border: none;
 }
+
