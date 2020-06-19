@@ -107,6 +107,10 @@
             //   text-align: center;
             // }
           }
+          & .menu_animate {
+            animation-name: menuanim;
+            animation-duration: 2s;
+          }
           & .show {
             position: absolute;
             right: 0%;

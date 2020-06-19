@@ -64,6 +64,9 @@
     display: none; }
   .header_page .first_page .first__inner .navigation .close {
     display: none; }
+  .header_page .first_page .first__inner .navigation .menu_animate {
+    animation-name: menuanim;
+    animation-duration: 2s; }
   .header_page .first_page .first__inner .navigation .show {
     position: absolute;
     right: 0%;
