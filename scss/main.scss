@@ -379,7 +379,7 @@ body {
   background-image: url("../img/3-layers.png");
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: contain;
+  // background-size: contain;
   min-height: 685px;
   & .realize__title {
     text-align: center;
@@ -615,6 +615,7 @@ body {
   & .video__inner {
     & .video__part {
       position: relative;
+      text-align: center;
       & .play__div {
         position: absolute;
         max-width: 600px;
@@ -695,6 +696,7 @@ body {
 // Седьмой слайд
 .phone_part {
   & .text_part_photo {
+    margin-top: 35px;
     min-height: 738px;
     background-repeat: no-repeat;
     background-size: contain;
