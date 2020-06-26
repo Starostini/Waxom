@@ -36,7 +36,17 @@ li {
   font-family: "Montserrat - Ultra Light";
   src: local("Montserrat-ExtraLight"), url("../fonts/montserrat/woff2/Montserrat-ExtraLight.woff2") format("woff2"), url("../fonts/montserrat/woff/Montserrat-ExtraLight.woff") format("woff"), url(../fonts/montserrat/ttf/Montserrat-ExtraLight.ttf) format("ttf"), url(../fonts/montserrat/eot/Montserrat-ExtraLight.eot) format("eot"); }
 
+<<<<<<< HEAD
 @keyframes menuanim {}* {
+=======
+@keyframes menuanim {
+  from {
+    background-color: red; }
+  to {
+    background-color: yellow; } }
+
+* {
+>>>>>>> jswork
   margin: 0 auto; }
 
 body {
@@ -304,7 +314,6 @@ body {
   background-image: url("../img/3-layers.png");
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: contain;
   min-height: 685px; }
   .second__realize .realize__title {
     text-align: center;
@@ -494,7 +503,8 @@ body {
     box-shadow: inset 2px 2px 0 #736357; }
 
 .video .video__inner .video__part {
-  position: relative; }
+  position: relative;
+  text-align: center; }
   .video .video__inner .video__part .play__div {
     position: absolute;
     max-width: 600px;
@@ -557,6 +567,7 @@ body {
   display: none; }
 
 .phone_part .text_part_photo {
+  margin-top: 35px;
   min-height: 738px;
   background-repeat: no-repeat;
   background-size: contain;

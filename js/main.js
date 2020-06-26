@@ -33,6 +33,7 @@ document.querySelector('.little__menu').addEventListener('click', function (even
     if (navigation.classList.contains('close')) {
         navigation.classList.remove('close');
         navigation.classList.add('show');
+        navigation.classList.add('menuanim');
     } else if (navigation.classList.contains('show')){
         navigation.classList.add('close');
         navigation.classList.remove('show');

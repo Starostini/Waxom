@@ -30,6 +30,9 @@
   .phone_part .text_part_photo .text__part__inner .details_photo_part .summary_photo_part {
     padding: 0px 0 0 10px;
   }
+  .second__realize {
+    background-size: contain;
+  }
 }
 // 1200
 @media screen and (max-width: 1200px) {
@@ -107,14 +110,18 @@
             //   text-align: center;
             // }
           }
+          & .menu_animate {
+            animation-name: menuanim;
+            animation-duration: 2s;
+          }
           & .show {
             position: absolute;
-            right: 0%;
+            right: 10%;
+            left: 10%;
             top: 10%;
             text-align: center;
             z-index: 1;
             border-radius: 30px;
-            width: 100%;
             display: block;
             background-color: rgba(43, 41, 41, 0.774);
           }
