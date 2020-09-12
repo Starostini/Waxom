@@ -22,8 +22,7 @@ function _boot() {
 
 function switchMenu(e) {
     e.stopPropagation();
-    this.open = !this.open;
-    if (this.open) {
+    if (!menu.classList.contains('open')) {
         e.target.className = menu.classList.add('open');
     }
     else {
@@ -34,7 +33,6 @@ function switchMenu(e) {
 _boot();
 
 container.addEventListener('click', function (event) {
-    event.stopPropagation();
     menu.classList.remove('open');
 });
 // document.querySelector('.little__menu').addEventListener('click', function (event) {
