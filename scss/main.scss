@@ -81,6 +81,8 @@ body {
             font-family: Montserrat, Arial, sans-serif;
             font-size: 14px;
             line-height: 16px;
+            display: block;
+            padding: 7px;
             &:hover {
               color: #c7b299;
               font-family: Montserrat, Arial, sans-serif;
@@ -123,11 +125,6 @@ body {
               }
             }
           }
-        }
-      }
-      & .navigation {
-        & li {
-          padding: 7px;
         }
       }
       & .little__menu {

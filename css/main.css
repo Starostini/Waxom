@@ -78,7 +78,9 @@ body {
           color: #ffffff;
           font-family: Montserrat, Arial, sans-serif;
           font-size: 14px;
-          line-height: 16px; }
+          line-height: 16px;
+          display: block;
+          padding: 7px; }
           .header__page .first__page .first__inner .first__inner-2 .menu_nav .nav_a:hover {
             color: #c7b299;
             font-family: Montserrat, Arial, sans-serif;
@@ -113,8 +115,6 @@ body {
               background-color: rgba(199, 178, 153, 0.5);
               color: #fff;
               padding: 3px 30px 3px 7px; }
-    .header__page .first__page .first__inner .navigation li {
-      padding: 7px; }
     .header__page .first__page .first__inner .little__menu {
       display: none; }
       .header__page .first__page .first__inner .little__menu .svg-inline--fa {

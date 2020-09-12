@@ -77,19 +77,11 @@
     background-color: rgba(43, 41, 41, 0.774); }
     .header__page .first__page .first__inner .navigation .menu_nav.open {
       height: 325px; }
-  .header__page .first__page .first__inner .navigation .show {
-    position: absolute;
-    right: 10%;
-    left: 10%;
-    top: 10%;
-    text-align: center;
-    z-index: 1;
-    border-radius: 30px;
-    display: block;
-    background-color: rgba(43, 41, 41, 0.774);
-    height: 100px; }
   .header__page .first__page .first__inner .navigation .little__menu {
     display: block; }
+  .menu_nav_li:hover {
+    transition: background-color .4s, transform .6s;
+    background-color: rgba(43, 41, 41, 0.548); }
   .second_part .second__inner {
     margin: 0px auto; }
   .second__realize {
