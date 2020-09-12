@@ -47,7 +47,7 @@
     margin: 0px auto;
     float: none;
   }
-  .header_page {
+  .header__page {
     & .first_page_2 {
       & .slick-btn {
         &.slick-next {
@@ -66,7 +66,7 @@
 }
 // 1100
 @media screen and (max-width: 1100px) {
-  .header_page {
+  .header__page {
     min-height: 800px;
     & .first_page_2 {
       padding-top: 150px;
@@ -95,24 +95,37 @@
   .statistic .statistic__inner {
     padding-bottom: 25px;
   }
-  .header_page {
-    & .first_page {
+  .header__page {
+    & .first__page {
       & .first__inner {
         & .navigation {
           & .menu_nav {
-            display: none;
+            // display: block;
+            height: 0px;
+            overflow: hidden;
+            transition: height .4s, transform .6s;
+            position: absolute;
+            right: 20%;
+            left: 20%;
+            top: 10%;
+            text-align: center;
+            z-index: 1;
+            border-radius: 30px;
+            display: block;
+            background-color: rgba(43, 41, 41, 0.774);
+            &.open {
+
+              height: 325px;
+            }
           }
           & .close {
-            display: none;
+            // display: none;
             // &.togle__menu {
             //   display: grid;
             //   grid-template-columns: 100px 100px 100px 100px 100px;
             //   text-align: center;
             // }
-          }
-          & .menu_animate {
-            animation-name: menuanim;
-            animation-duration: 2s;
+            
           }
           & .show {
             position: absolute;
@@ -124,6 +137,7 @@
             border-radius: 30px;
             display: block;
             background-color: rgba(43, 41, 41, 0.774);
+            height: 100px;
           }
           & .little__menu {
             display: block;
@@ -170,7 +184,7 @@
   .container {
     padding: 0 50px;
   }
-  .header_page {
+  .header__page {
     min-height: 650px;
     & .first_page_2 {
       & .slick-dots {
@@ -325,9 +339,9 @@
   .container {
     padding: 0 25px;
   }
-  .header_page {
+  .header__page {
     min-height: 450px;
-    & .first_page {
+    & .first__page {
       padding-top: 30px;
       & .first__inner {
         & .little__menu {
@@ -365,16 +379,16 @@
       }
     }
   }
-  .logo__page_inner .logo_svg {
+  .logo__page_inner .logo__svg {
     fill: #fff;
     width: 32px;
     height: 24px;
   }
-  .logo_txt {
+  .logo__txt {
     font-size: 20px;
     line-height: 24px;
   }
-  .header_page .first_page_2 .slick-dots li:before {
+  .header__page .first_page_2 .slick-dots li:before {
     width: 6px;
     height: 6px;
   }

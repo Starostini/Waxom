@@ -46,7 +46,7 @@ body {
   line-height: 0px;
 }
 // Первый слайд
-.header_page {
+.header__page {
   background-image: url(../img/photo.png);
   background-color: gray;
   background-size: cover;
@@ -60,14 +60,14 @@ body {
     box-shadow: 0 0 0 590px rgba(0, 0, 0, 0.2) inset;
   }
   // Зона с меню и лого
-  & .first_page {
+  & .first__page {
     max-width: 1240px;
     padding-top: 50px;
     & .first__inner {
       & .logo {
         float: left;
       }
-      & .first__inner_2 {
+      & .first__inner-2 {
         padding: 8px 0;
         & .menu_nav {
           list-style-type: none;
@@ -282,27 +282,28 @@ body {
   //   background-size: 100% 100%;
   // }
 }
+.logo__page-inner,
 .logo__page_inner {
   display: flex;
   align-items: center;
   text-decoration: none;
-  & .logo_svg {
+  & .logo__svg {
     fill: #fff;
   }
-  &:hover .logo_svg {
+  &:hover .logo__svg {
     fill: #998675;
   }
-  &:active .logo_svg {
+  &:active .logo__svg {
     fill: #fff;
   }
-  &:hover .logo_txt {
+  &:hover .logo__txt {
     color: #998675;
   }
-  &:active .logo_txt {
+  &:active .logo__txt {
     color: #fff;
   }
 }
-.logo_txt {
+.logo__txt {
   color: #ffffff;
   font-family: Raleway;
   font-size: 34px;
@@ -941,23 +942,23 @@ body {
       max-width: 280px;
       & .logo_page2 {
         text-decoration: none;
-        & .logo_svg2 {
+        & .logo__svg2 {
           fill: #fff;
         }
-        & .logo_txt2 {
+        & .logo__txt2 {
           color: #ffffff;
           font-family: Raleway;
           font-size: 34px;
           letter-spacing: -1.36px;
         }
         &:hover {
-          & .logo_svg2 {
+          & .logo__svg2 {
             fill: #998675;
           }
-          &:active .logo_svg2 {
+          &:active .logo__svg2 {
             fill: #fff;
           }
-          & .logo_txt2 {
+          & .logo__txt2 {
             color: #998675;
           }
         }
