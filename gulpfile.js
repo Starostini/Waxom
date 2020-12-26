@@ -1,6 +1,6 @@
 const del = require('del');
 
-let project_folder = require('path').basename('test'/*__dirname*/);
+let project_folder = require('path').basename(__dirname);
 let source_folder = "#src";
 let fs = require('fs');
 let path = {
@@ -16,7 +16,7 @@ let path = {
         css: source_folder + "/scss/**/*.scss",
         js: source_folder + "/js/main.js",
         img: source_folder + "/img/**/*.{jpg,png,svg,webp,gif,ico}",
-        fonts: source_folder + "/fonts/*.ttf",
+        fonts: source_folder + "/fonts/**/**/*.ttf",
     },
     watch: {
         html: source_folder + "/**/*.html",
@@ -64,7 +64,6 @@ function html() {
         .pipe(dest(path.build.html))
         .pipe(browsersync.stream())
 }
-
 function css() {
     return src(path.src.css)
         .pipe(
@@ -95,7 +94,6 @@ function css() {
         .pipe(dest(path.build.css))
         .pipe(browsersync.stream())
 }
-
 function js() {
     return src(path.src.js)
         .pipe(fileinclude())
@@ -120,7 +118,6 @@ function js() {
         .pipe(dest(path.build.js))
         .pipe(browsersync.stream())
 }
-
 function images() {
     return src(path.src.img)
         .pipe(
@@ -144,7 +141,6 @@ function images() {
         .pipe(dest(path.build.img))
         .pipe(browsersync.stream())
 }
-
 function fonts(params) {
     src(path.src.fonts)
         .pipe(ttf2woff())
@@ -152,16 +148,14 @@ function fonts(params) {
     return src(path.src.fonts)
         .pipe(ttf2woff2())
         .pipe(dest(path.build.fonts));
-};
-
+}
 gulp.task('otf2ttf', function () {
-    return gulp.src([source_folder + '/fonts/*.otf'])
+    return gulp.src([source_folder + '/fonts/**/**/*.otf'])
         .pipe(fonter({
             formats: ['ttf']
         }))
         .pipe(dest(source_folder + '/fonts/'));
 })
-
 gulp.task('svgSprite', function () {
     return gulp.src([source_folder + '/iconsprite/*.svg'])
         .pipe(svgSprite({
@@ -175,17 +169,17 @@ gulp.task('svgSprite', function () {
         ))
         .pipe(dest(path.build.img))
 })
-
 function fontsStyle(params) {
-
     let file_content = fs.readFileSync(source_folder + '/scss/_rfs.scss');
     if (file_content == '') {
         fs.writeFile(source_folder + '/scss/_rfs.scss', '', cb);
         return fs.readdir(path.build.fonts, function (err, items) {
             if (items) {
                 let c_fontname;
-                for (var i = 0; i < items.length; i++) {
-                    let fontname = items[i].split('.');
+                /*for (let i = 0; i < items.length; i++)*/
+                for (let item of items) {
+
+                    let fontname = item.split('.');
                     fontname = fontname[0];
                     if (c_fontname != fontname) {
                         fs.appendFile(source_folder + '/scss/_rfs.scss', '@include font-face("' + fontname + '", "' + fontname + '", "400", "normal");\r\n', cb);

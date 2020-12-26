@@ -2,48 +2,44 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: local("Montserrat"), url("../fonts/montserrat/woff2/montserrat-regular-webfont.woff2") format("woff2"),
-    url("../fonts/montserrat/woff/montserrat-regular-webfont.woff") format("woff"),
-    url(../fonts/montserrat/ttf/montserrat-regular.ttf) format("ttf");
+  src: local("Montserrat"), url("../fonts/montserrat-regular.woff2") format("woff2"),
+    url("../fonts/montserrat-regular.woff") format("woff"),
+    url(../fonts/montserrat-regular.ttf) format("ttf");
 }
-
 @font-face {
-  font-family: "Raleway";
-  src: local("Raleway"), url("../fonts/raleway/woff2/raleway-regular-webfont.woff2") format("woff2"),
-    url("../fonts/raleway/woff/raleway-regular-webfont.woff") format("woff"),
-    url(../fonts/raleway/ttf/raleway-regular.ttf) format("ttf");
+  font-family: 'Raleway';
+  src: local("Raleway"), url("../fonts/raleway-regular.woff2") format("woff2"),
+    url("../fonts/raleway-regular.woff") format("woff"),
+    url(../fonts/raleway-regular.ttf) format("ttf");
 }
 
 @font-face {
   font-family: "Raleway - Extra Bold";
-  src: local("Raleway - Extra Bold"), url("../fonts/raleway/woff2/raleway-extrabold-webfont.woff2") format("woff2"),
-    url("../fonts/raleway/woff/raleway-extrabold-webfont.woff") format("woff"),
-    url(../fonts/raleway/ttf/raleway-extrabold.ttf) format("ttf");
+  src: local("Raleway - Extra Bold"), url("../fonts/raleway-extrabold.woff2") format("woff2"),
+    url("../fonts/raleway-extrabold.woff") format("woff"),
+    url(../fonts/raleway-extrabold.ttf) format("ttf");
 }
 
 @font-face {
   font-family: "Raleway - Semi Bold";
-  src: local("Raleway - Semi Bold"), url("../fonts/raleway/woff2/raleway-semibold-webfont.woff2") format("woff2"),
-    url("../fonts/raleway/woff/raleway-semibold-webfont.woff") format("woff"),
-    url(../fonts/raleway/ttf/raleway-semibold.ttf) format("ttf");
+  src: local("Raleway - Semi Bold"), url("../fonts/raleway-semibold.woff2") format("woff2"),
+    url("../fonts/raleway-semibold.woff") format("woff"),
+    url(../fonts/raleway-semibold.ttf) format("ttf");
 }
 
 @font-face {
   font-family: "Montserrat - Ultra Light";
-  src: local("Montserrat-ExtraLight"), url("../fonts/montserrat/woff2/Montserrat-ExtraLight.woff2") format("woff2"),
-    url("../fonts/montserrat/woff/Montserrat-ExtraLight.woff") format("woff"),
-    url(../fonts/montserrat/ttf/Montserrat-ExtraLight.ttf) format("ttf"),
-    url(../fonts/montserrat/eot/Montserrat-ExtraLight.eot) format("eot");
+  src: local("Montserrat-ExtraLight"), url("../fonts/Montserrat-ExtraLight.woff2") format("woff2"),
+    url("../fonts/Montserrat-ExtraLight.woff") format("woff"),
+    url(../fonts/Montserrat-ExtraLight.ttf) format("ttf"),
+    url(../fonts/Montserrat-ExtraLight.eot) format("eot");
 }
-@keyframes menuanim {
-  from {background-color: red;}
-  to {background-color: yellow;}
-}
+
 * {
   margin: 0 auto;
 }
 body {
-  line-height: 0px;
+  line-height: 0;
 }
 // Первый слайд
 .header__page {
@@ -110,7 +106,7 @@ body {
               background-size: contain;
               background-repeat: no-repeat;
               background-position: right;
-              border: 0px;
+              border: 0;
               transition: width 1s ease-out, background-color 1s ease-out;
               border-radius: 10px;
               padding: 0;
@@ -156,11 +152,11 @@ body {
       border-left: none;
       border-bottom: none;
       &.slick-prev {
-        left: 0px;
+        left: 0;
         transform: rotate(225deg);
       }
       &.slick-next {
-        right: 0px;
+        right: 0;
         transform: rotate(45deg);
       }
       &.slick-disabled {
@@ -302,7 +298,7 @@ body {
 }
 .logo__txt {
   color: #ffffff;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 34px;
   letter-spacing: -1.36px;
 }
@@ -471,7 +467,7 @@ body {
       padding: 0 22px 0 22px;
       margin: 0 5px 0 5px;
       color: #8c8c8c;
-      font-family: Montserrat;
+      font-family: Montserrat, sans-serif;
       font-size: 14px;
       &:hover {
         background-color: #998675;
@@ -508,7 +504,7 @@ body {
     & .nav__link__title {
       padding-top: 20px;
       color: #c7b299;
-      font-family: Raleway;
+      font-family: Raleway, sans-serif;
       font-size: 20px;
       line-height: 22px;
     }
@@ -516,7 +512,7 @@ body {
       display: block;
       padding: 10px 0 20px 0;
       color: #d1d1d1;
-      font-family: Montserrat;
+      font-family: Montserrat, sans-serif;
       font-size: 14px;
       line-height: 20px;
       &:before {
@@ -659,14 +655,14 @@ body {
           padding: 0 0 30px 0;
           display: block;
           color: #ffffff;
-          font-family: Raleway;
+          font-family: Raleway, sans-serif;
           font-size: 30px;
           line-height: 32px;
         }
         & .p_video {
           text-align: center;
           color: #ffffff;
-          font-family: Montserrat;
+          font-family: Montserrat, sans-serif;
           font-size: 16px;
           line-height: 28px;
         }
@@ -675,7 +671,7 @@ body {
           text-align: center;
           width: 100%;
           color: #ffffff;
-          font-family: Montserrat;
+          font-family: Montserrat, sans-serif;
           font-size: 14px;
           line-height: 24px;
         }
@@ -709,14 +705,14 @@ body {
       & .h1_photo_part {
         padding-bottom: 20px;
         color: #555555;
-        font-family: "Raleway - Semi Bold";
+        font-family: "Raleway - Semi Bold", sans-serif;
         font-size: 30px;
         line-height: 32px;
       }
       & .p_photo_part {
         padding-left: 30px;
         color: #8c8c8c;
-        font-family: Montserrat;
+        font-family: Montserrat, sans-serif;
         font-size: 16px;
         line-height: 28px;
       }
@@ -724,7 +720,7 @@ body {
         margin-left: 30px;
         padding: 45px 0 0 180px;
         color: #8c8c8c;
-        font-family: Montserrat;
+        font-family: Montserrat, sans-serif;
         font-size: 16px;
         font-weight: 300;
         line-height: 32px;
@@ -761,14 +757,14 @@ body {
         line-height: 36px;
         padding-top: 30px;
         color: #ffffff;
-        font-family: "Montserrat - Ultra Light";
+        font-family: "Montserrat - Ultra Light", sans-serif;
         font-size: 48px;
       }
       .statistic_span2 {
         padding-top: 20px;
         padding-bottom: 30px;
         color: #c7b299;
-        font-family: Montserrat;
+        font-family: Montserrat, sans-serif;
         font-size: 14px;
         line-height: 20px;
         text-transform: uppercase;
@@ -780,7 +776,7 @@ body {
         height: 2px;
         background-color: #ffffff;
         position: absolute;
-        bottom: 0px;
+        bottom: 0;
         left: 35%;
       }
     }
@@ -794,7 +790,7 @@ body {
   & .span_posts {
     text-align: center;
     color: #555555;
-    font-family: "Raleway - Semi Bold";
+    font-family: "Raleway - Semi Bold", sans-serif;
     font-size: 30px;
     line-height: 32px;
     padding-top: 80px;
@@ -805,7 +801,7 @@ body {
     padding-top: 30px;
     padding-bottom: 20px;
     color: #8c8c8c;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 16px;
     line-height: 28px;
   }
@@ -827,7 +823,7 @@ body {
         border-radius: 3px 3px 0 0;
         background-color: #363636;
         color: #ffffff;
-        font-family: Montserrat;
+        font-family: Montserrat, sans-serif;
         font-size: 24px;
         line-height: 38px;
         position: absolute;
@@ -841,7 +837,7 @@ body {
         border-radius: 0 0 3px 3px;
         background-color: #252525;
         color: #ffffff;
-        font-family: "Montserrat - Ultra Light";
+        font-family: "Montserrat - Ultra Light", sans-serif;
         text-transform: capitalize;
         font-size: 12px;
         line-height: 25px;
@@ -856,22 +852,22 @@ body {
         & .span_part {
           padding-top: 30px;
           color: #555555;
-          font-family: Raleway;
+          font-family: Raleway, sans-serif;
           font-size: 20px;
           line-height: 20px;
         }
         & .p_part {
           color: #8c8c8c;
-          font-family: Montserrat;
+          font-family: Montserrat, sans-serif;
           font-size: 14px;
           font-weight: 300;
           line-height: 22px;
           padding-top: 15px;
         }
         & .read_more_part {
-          padding: 30px 0px;
+          padding: 30px 0;
           color: #c7b299;
-          font-family: Montserrat;
+          font-family: Montserrat, sans-serif;
           font-size: 14px;
           font-weight: 300;
           line-height: 20px;
@@ -917,7 +913,7 @@ body {
     flex-wrap: wrap;
     max-width: 1620px;
     align-items: center;
-    padding: 140px 0px;
+    padding: 140px 0;
     & a {
       padding: 10px 10px;
       margin: 10px 10px;
@@ -934,7 +930,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 80px 0px;
+    padding: 80px 0;
     & .waxom_list2 {
       max-width: 280px;
       & .logo_page2 {
@@ -944,7 +940,7 @@ body {
         }
         & .logo__txt2 {
           color: #ffffff;
-          font-family: Raleway;
+          font-family: Raleway, sans-serif;
           font-size: 34px;
           letter-spacing: -1.36px;
         }
@@ -965,14 +961,14 @@ body {
       margin: 0;
       padding: 20px 0 0 0;
       color: #555555;
-      font-family: Montserrat;
+      font-family: Montserrat, sans-serif;
       font-size: 14px;
       font-weight: 300;
       line-height: 24px;
     }
     & .read_more {
       color: #d1d1d1;
-      font-family: Montserrat;
+      font-family: Montserrat, sans-serif;
       font-size: 14px;
       line-height: 20px;
       text-transform: capitalize;
@@ -988,7 +984,7 @@ body {
         line-height: 50px;
         text-transform: capitalize;
         color: #ffffff;
-        font-family: Raleway;
+        font-family: Raleway, sans-serif;
         font-size: 24px;
         font-weight: 700;
         padding-bottom: 25px;
@@ -1005,14 +1001,14 @@ body {
         }
         & .date_for_text {
           color: #363636;
-          font-family: Montserrat;
+          font-family: Montserrat, sans-serif;
           font-size: 12px;
           line-height: 20px;
           padding-bottom: 10px;
         }
         & .text_in_the_link {
           color: #555555;
-          font-family: Montserrat;
+          font-family: Montserrat, sans-serif;
           font-size: 14px;
           font-weight: 300;
           line-height: 20px;
@@ -1027,7 +1023,7 @@ body {
       & .twitter_span {
         line-height: 50px;
         color: #ffffff;
-        font-family: Raleway;
+        font-family: Raleway, sans-serif;
         font-size: 24px;
         font-weight: 700;
         text-transform: capitalize;
@@ -1035,7 +1031,7 @@ body {
       }
       & .text_twitter {
         color: #555555;
-        font-family: Montserrat;
+        font-family: Montserrat, sans-serif;
         font-size: 14px;
         font-weight: 300;
         line-height: 20px;
@@ -1051,7 +1047,7 @@ body {
       }
       & .date_time_twitter {
         color: #363636;
-        font-family: Montserrat;
+        font-family: Montserrat, sans-serif;
         font-size: 12px;
         font-weight: 300;
         line-height: 20px;
@@ -1069,7 +1065,7 @@ body {
       & .span_image {
         text-transform: capitalize;
         color: #ffffff;
-        font-family: Raleway;
+        font-family: Raleway, sans-serif;
         font-size: 24px;
         font-weight: 700;
       }
@@ -1093,7 +1089,7 @@ body {
 }
 .copyright {
   color: #555555;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 13px;
   font-weight: 300;
   line-height: 20px;
@@ -1101,7 +1097,7 @@ body {
 
 .waxom_com {
   text-decoration: none;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 13px;
   font-weight: 300;
   line-height: 20px;
@@ -1113,7 +1109,7 @@ body {
 .support {
   text-decoration: none;
   color: #555555;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 13px;
   font-weight: 300;
   line-height: 20px;
@@ -1129,7 +1125,7 @@ body {
 }
 
 .text_designed {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 13px;
   font-weight: 300;
   line-height: 20px;
@@ -1144,8 +1140,8 @@ body {
 .envato {
   text-decoration: none;
   color: #959595;
-  padding: 0px 10px;
-  margin: 0px 5px;
+  padding: 0 10px;
+  margin: 0 5px;
 }
 
 #modal {
@@ -1159,7 +1155,7 @@ body {
   margin-bottom: 20px;
   height: 40px;
   border: 1px solid #e6e6e6;
-  padding: 0px 10px;
+  padding: 0 10px;
   font-weight: 400;
 }
 #modal input[type="submit"] {
