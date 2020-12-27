@@ -2,64 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac008dd-c666-4e31-abcb-68576c56ce3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/#src/scss/_rfs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/audio/empty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/#src/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/empty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/eot/Montserrat-ExtraLight.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/ttf/Montserrat-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/ttf/Montserrat-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/ttf/Montserrat-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/ttf/Montserrat-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/ttf/Montserrat-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/ttf/Montserrat-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/ttf/Montserrat-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/ttf/Montserrat-ExtraLightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/ttf/Montserrat-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/ttf/Montserrat-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/ttf/Montserrat-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/ttf/Montserrat-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/ttf/Montserrat-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/ttf/Montserrat-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/ttf/Montserrat-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/ttf/Montserrat-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/ttf/Montserrat-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/ttf/Montserrat-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/ttf/OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/woff/Montserrat-ExtraLight.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/woff/montserrat-regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/woff2/Montserrat-ExtraLight.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/montserrat/woff2/montserrat-regular-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/ttf/OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/ttf/Raleway-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/ttf/Raleway-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/ttf/Raleway-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/ttf/Raleway-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/ttf/Raleway-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/ttf/Raleway-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/ttf/Raleway-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/ttf/Raleway-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/ttf/Raleway-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/ttf/raleway-black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/ttf/raleway-blackitalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/ttf/raleway-bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/ttf/raleway-bolditalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/ttf/raleway-extrabold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/ttf/raleway-extrabolditalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/ttf/raleway-extralight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/ttf/raleway-extralightitalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/ttf/raleway-semibold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/woff/raleway-extrabold-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/woff/raleway-regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/woff/raleway-semibold-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/woff2/raleway-extrabold-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/woff2/raleway-regular-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/fonts/raleway/woff2/raleway-semibold-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/#src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
