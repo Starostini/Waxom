@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac008dd-c666-4e31-abcb-68576c56ce3c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/#src/css/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/css/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/css/brands.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/css/brands.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/css/fontawesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/css/fontawesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/css/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/css/media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/css/media.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/css/regular.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/css/regular.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/css/solid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/css/solid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/css/svg-with-js.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/css/svg-with-js.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/css/v4-shims.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/css/v4-shims.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/waxom/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/waxom/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/waxom/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/waxom/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/waxom/img/video_fon.png" beforeDir="false" afterPath="$PROJECT_DIR$/waxom/img/video_fon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/waxom/img/video_fon.webp" beforeDir="false" afterPath="$PROJECT_DIR$/waxom/img/video_fon.webp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +48,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/waxom/css" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/waxom/css" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="js.build_tools.grunt">
