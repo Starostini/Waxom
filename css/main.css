@@ -219,6 +219,7 @@ body {
 }
 
 .header__page .first_page_2 .info_title {
+  display:block;
   text-align: center;
   color: #ffffff;
   font-family: Raleway, Arial, sans-serif;
