@@ -27,11 +27,6 @@ li {
 }
 
 @font-face {
-  font-family: 'Raleway';
-  src: local("Raleway"), url("../fonts/raleway-regular.woff2") format("woff2"), url("../fonts/raleway-regular.woff") format("woff"), url(../fonts/raleway-regular.ttf) format("ttf");
-}
-
-@font-face {
   font-family: "Raleway - Extra Bold";
   src: local("Raleway - Extra Bold"), url("../fonts/raleway-extrabold.woff2") format("woff2"), url("../fonts/raleway-extrabold.woff") format("woff"), url(../fonts/raleway-extrabold.ttf) format("ttf");
 }
