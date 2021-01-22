@@ -38,7 +38,7 @@ li {
 
 @font-face {
   font-family: "Montserrat - Ultra Light";
-  src: local("Montserrat-ExtraLight"), url("../fonts/Montserrat-ExtraLight.woff2") format("woff2"), url("../fonts/Montserrat-ExtraLight.woff") format("woff"), url(../fonts/Montserrat-ExtraLight.ttf) format("ttf"), url(../fonts/Montserrat-ExtraLight.eot) format("eot");
+  src: local("Montserrat-ExtraLight"), url("../fonts/Montserrat-ExtraLight.woff") format("woff"), url(../fonts/Montserrat-ExtraLight.ttf) format("ttf"), url(../fonts/Montserrat-ExtraLight.eot) format("eot");
 }
 
 * {
